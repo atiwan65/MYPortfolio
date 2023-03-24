@@ -71,3 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### My weBsite ###
 <img src="/public/wedprofile.png">
+<img src="/public/web2.png">
+<img src="/public/web3.png">
+<img src="/public/web4.png">
+<img src="/public/web5.png">
+<img src="/public/web6.png">
