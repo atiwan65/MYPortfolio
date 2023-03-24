@@ -1,8 +1,12 @@
-# Getting Started with Create React App
+# เริ่มต้นต้องโหลดใน cmd ในโปรเจคใน visual Studio Code
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+npm i react-bootstrap
 
-## Available Scripts
+npm i react-moving-text
+
+npm i axios
+
+## 
 
 In the project directory, you can run:
 
@@ -18,7 +22,7 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-<img src="/public/12.png">
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
