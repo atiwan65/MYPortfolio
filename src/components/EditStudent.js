@@ -70,22 +70,22 @@ class EditStudent extends Component {
     return (
         <div>
             <Form onSubmit={this.onSubmit}>
-            <Form.Group className='mt-4'>
+            <Form.Group className='mt-4 text-white'>
                 <Form.Label>Educations</Form.Label>
                 <Form.Control type='text' value={this.state.educations} onChange={this.onChangStudentEducations}></Form.Control>
             </Form.Group>
 
-            <Form.Group className='mt-4'>
+            <Form.Group className='mt-4 text-white'>
                 <Form.Label>FirstName</Form.Label>
                 <Form.Control type='text' value={this.state.firstname} onChange={this.onChangStudentFirstname}></Form.Control>
             </Form.Group>
 
-            <Form.Group className='mt-4'>
+            <Form.Group className='mt-4 text-white'>
                 <Form.Label>LastName</Form.Label>
                 <Form.Control type='text' value={this.state.lastname} onChange={this.onChangStudentLastname}></Form.Control>
             </Form.Group>
 
-            <Form.Group className='mt-4'>
+            <Form.Group className='mt-4 text-white'>
                 <Form.Label>School</Form.Label>
                 <Form.Control type='text' value={this.state.school} onChange={this.onChangStudentSchool}></Form.Control>
             </Form.Group>
