@@ -5,6 +5,14 @@ import Button from 'react-bootstrap/Button';
 
 
 export default class Contact extends Component {
+  
+  
+  
+  componentDidMount(){
+    document.title = "ติดต่อฉัน"
+  }
+
+
   render() {
     return (
       

@@ -2,6 +2,12 @@ import React, { Component, Fragment } from 'react'
 import MovingText from 'react-moving-text'
 
 export default class Home extends Component {
+
+  componentDidMount(){
+    document.title = "สวัสดีครับ"
+  }
+
+
   render() {
     return (
       
@@ -18,7 +24,8 @@ export default class Home extends Component {
      timing="ease"
      iteration="1"
      fillMode="none">
-            <h1 className='m-0 '>Hi I am Atiwan</h1>
+            <h1 className='m-0'>
+              Hi I am Atiwan</h1>
             <MovingText type="typewriter"
                         dataText={[
                         'Hi I am Bom Nice to meet you.',
@@ -40,6 +47,8 @@ export default class Home extends Component {
      timing="ease"
      iteration="1"
      fillMode="none">
+  
+  
         
         <img rounded thumbnail className='img-fluid rounded-pill slide-in-bottom' src='pro.jpg' width="1000" height="1000" alt='...'/> {''}
         </MovingText>

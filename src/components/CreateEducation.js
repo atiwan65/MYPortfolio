@@ -15,6 +15,9 @@ class CreateEducation extends Component {
             school: ""
         }
     }
+    componentDidMount(){
+        document.title = "Create Data"
+      }
 
     onChangStudentEducations = (e) => {
         this.setState({educations: e.target.value })

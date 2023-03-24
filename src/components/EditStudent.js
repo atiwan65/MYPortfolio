@@ -17,6 +17,7 @@ class EditStudent extends Component {
         }
 
         componentDidMount() {
+
             axios.get("http://localhost:5000/students/edit-student/" + this.props.router.params.id)
             .then(res => {
                 this.setState({
@@ -29,6 +30,7 @@ class EditStudent extends Component {
             .catch((error) => {
                 console.log(error)
             })
+            
         }
 
         onChangStudentEducations = (e) => {

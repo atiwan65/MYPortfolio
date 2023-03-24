@@ -15,6 +15,7 @@ export default class Studentlist extends Component {
 
     componentDidMount(){
       this.getAllStudentS()
+      document.title = "Student Data"
     }
 
     getAllStudentS(){

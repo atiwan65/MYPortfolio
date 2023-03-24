@@ -1,6 +1,6 @@
 html, body{
   margin: 0;
-  background-image:url(/public/bg3.jpeg);
+  background-image:url(/public/bg5.gif);
   background-size: cover;
   
   color: #000000;
@@ -63,3 +63,4 @@ html, body{
   animation-iteration-count: 1;
   animation-name: slideInBottom;
 }
+

@@ -16,6 +16,7 @@ export default class About extends Component {
 
     componentDidMount(){
       this.getAllStudentS()
+      document.title = "เกียวกับฉัน"
     }
 
     getAllStudentS(){
