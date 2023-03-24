@@ -1,0 +1,63 @@
+html, body{
+  margin: 0;
+  background-image:url(/public/bg3.jpeg);
+  color: #000000;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+     /* animation: App-logo-spin infinite 0.100s linear;  */
+  }
+}
+.footer {
+  padding: 15;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+  background-color: #000000;
+  color: #fbfbfb;
+  
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes slideInBottom {
+  0%{
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+.slide-in-bottom{
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInBottom;
+}
