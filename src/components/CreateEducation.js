@@ -76,7 +76,7 @@ class CreateEducation extends Component {
         </Form.Group>
 
         <Form.Group className = "mt-4 d-grid gap-2" >
-        <Button variant='outline-success' type="submit" >Create</Button>
+        <Button variant='success' type="submit" >Create</Button>
         </Form.Group>
 
         </Form>

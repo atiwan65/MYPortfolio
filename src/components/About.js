@@ -85,7 +85,7 @@ export default class About extends Component {
      timing="ease"
      iteration="1"
      fillMode="none">
-          <img className='img-fluid slide-in-bottom' src='u.gif' width="1000" height="1000" alt='...'/> {''}
+          <img className='img-fluid rounded slide-in-bottom' src='me3.jpg' width="1000" height="1000" alt='...'/> {''}
           <Table striped bordered hover variant="dark">
           <thead>
             <tr>
